@@ -6,7 +6,7 @@ const divide = (arr, n) => {
 	let currentsum=0;
 	for(let num of arr){
 		if(currentsum+num<=n){
-			current.push(current);
+			current.push(num);
 			current=[num];
 			currentsum=num;
 		}
